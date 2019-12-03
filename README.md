@@ -24,7 +24,7 @@ The state-space landscape is a graphical representation of the hill-climbing alg
 On Y-axis we have taken the function which can be an objective function or cost function, and state-space on the x-axis. If the function on Y-axis is cost then, the goal of search is to find the global minimum and local minimum. If the function of Y-axis is Objective function, then the goal of the search is to find the global maximum and local maximum.
 
 ![Hill Climbing Algorithm in AI1]
-(https://github.com/aditya-gupta-i/Cloud-Computing-Cost-Optimization/img/hill-climbing-algorithm-in-ai.png)
+(https://github.com/aditya-gupta-i/Cloud-Computing-Cost-Optimization/blob/master/img/hill-climbing-algorithm-in-ai.png)
 
 ## Different regions in the state space landscape:
 **Local Maximum** : Local maximum is a state which is better than its neighbor states, but there is also another state which is higher than it.
@@ -80,7 +80,7 @@ Stochastic hill climbing does not examine for all its neighbor before moving. Ra
 
 
 ![Hill Climbing Algorithm in AI1]
-(https://github.com/aditya-gupta-i/Cloud-Computing-Cost-Optimization/img/hill-climbing-algorithm-in-ai2.png)
+(https://github.com/aditya-gupta-i/Cloud-Computing-Cost-Optimization/blob/master/img/hill-climbing-algorithm-in-ai2.png)
 
 
 **2. Plateau:** A plateau is the flat area of the search space in which all the neighbor states of the current state contains the same value, because of this algorithm does not find any best direction to move. A hill-climbing search might be lost in the plateau area.
@@ -89,7 +89,7 @@ Stochastic hill climbing does not examine for all its neighbor before moving. Ra
 
 
 ![Hill Climbing Algorithm in AI1]
-(https://github.com/aditya-gupta-i/Cloud-Computing-Cost-Optimization/img/hill-climbing-algorithm-in-ai3.png)
+(https://github.com/aditya-gupta-i/Cloud-Computing-Cost-Optimization/blob/master/img/hill-climbing-algorithm-in-ai3.png)
 
 **3. Ridges:** A ridge is a special form of the local maximum. It has an area which is higher than its surrounding areas, but itself has a slope, and cannot be reached in a single move.
 
@@ -97,7 +97,7 @@ Stochastic hill climbing does not examine for all its neighbor before moving. Ra
 
 
 ![Hill Climbing Algorithm in AI1]
-(https://github.com/aditya-gupta-i/Cloud-Computing-Cost-Optimization/img/hill-climbing-algorithm-in-ai4.png)
+(https://github.com/aditya-gupta-i/Cloud-Computing-Cost-Optimization/blob/master/img/hill-climbing-algorithm-in-ai4.png)
 
 ### Simulated Annealing:
 A hill-climbing algorithm which never makes a move towards a lower value guaranteed to be incomplete because it can get stuck on a local maximum. And if algorithm applies a random walk, by moving a successor, then it may complete but not efficient. Simulated Annealing is an algorithm which yields both efficiency and completeness.
