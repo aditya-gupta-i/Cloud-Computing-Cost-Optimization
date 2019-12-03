@@ -79,7 +79,7 @@ Stochastic hill climbing does not examine for all its neighbor before moving. Ra
 **Solution:** Backtracking technique can be a solution of the local maximum in state space landscape. Create a list of the promising path so that the algorithm can backtrack the search space and explore other paths as well.
 
 
-![Hill Climbing Algorithm in AI1]
+![Hill Climbing Algorithm in AI2]
 (https://raw.githubusercontent.com/aditya-gupta-i/Cloud-Computing-Cost-Optimization/master/img/hill-climbing-algorithm-in-ai2.png)
 
 
@@ -88,7 +88,7 @@ Stochastic hill climbing does not examine for all its neighbor before moving. Ra
 **Solution:** The solution for the plateau is to take big steps or very little steps while searching, to solve the problem. Randomly select a state which is far away from the current state so it is possible that the algorithm could find non-plateau region.
 
 
-![Hill Climbing Algorithm in AI1]
+![Hill Climbing Algorithm in AI3]
 (https://raw.githubusercontent.com/aditya-gupta-i/Cloud-Computing-Cost-Optimization/master/img/hill-climbing-algorithm-in-ai3.png)
 
 **3. Ridges:** A ridge is a special form of the local maximum. It has an area which is higher than its surrounding areas, but itself has a slope, and cannot be reached in a single move.
@@ -96,7 +96,7 @@ Stochastic hill climbing does not examine for all its neighbor before moving. Ra
 **Solution:** With the use of bidirectional search, or by moving in different directions, we can improve this problem.
 
 
-![Hill Climbing Algorithm in AI1]
+![Hill Climbing Algorithm in AI4]
 (https://raw.githubusercontent.com/aditya-gupta-i/Cloud-Computing-Cost-Optimization/master/img/hill-climbing-algorithm-in-ai4.png)
 
 ### Simulated Annealing:
